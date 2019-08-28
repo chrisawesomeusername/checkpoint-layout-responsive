@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: tomato;
+  font-size: 50px;
+  font-family: helvetica;
+}
+
+p{
+  padding-top: 40px;
+}
+
+.top{
+  background-color: #333;
+  border: 3px solid tomato;
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+  margin-bottom: 60px;
+}
+
+.second{
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.two, .three, .four{
+  display: inline-block;
+  background-color: #333;
+  border: 3px solid tomato;
+  width: 32.7%;
+}
+
+.two{
+  position: absolute;
+  left: 0px;
+}
+.three{
+  position: absolute;
+  left: 33.6%;
+
+}
+.four{
+  position: absolute;
+  right: 0px;
+}
+
+
+.third{
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+  /* position: relative; */
+}
+
+.five, .six{
+  display: inline-block;
+  background-color: #333;
+  border: 3px solid tomato;
+  width: 49.5%;
+}
+
+.five{
+  float:
+}
+
+.six{
+  float: right;
+}
+
+.bottom{
+  background-color: #333;
+  border: 3px solid tomato;
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+}
